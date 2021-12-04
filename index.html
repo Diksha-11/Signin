@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sign-in</title>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="Style/style.css">
+</head>
+<body background-image="url('../bg.jpg')" 
+style="background-repeat: no-repeat; height:510px;">
+ 
+
+  <div  style="float: left;" class="dropdown">
+    <button class="dropbtn">Explore</button>
+    <div class="dropdown-content">
+      <a href="#">Page 1</a>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+    </div>
+  </div>
+  
+<form action="https://www.google.com/search" method="GET">
+
+<input id="styl" type="text" name="q" placeholder="Google Search">
+  <input id="styll" type="submit" value="Google Search">
+</form>
+
+<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
+<div class="login-box">
+<img src="user_img.png" class="deve"> 
+<h1>Welcome To Our Site</h1>
+
+<div class="textbox">
+<i class="fa fa-user" aria-hidden="true"></i>
+  <input type="text" placeholder="Username/email" name value>
+</div>
+
+<div class="textbox">
+  <i class="fa fa-lock" aria-hidden="true"></i>
+  <input type="password" placeholder="Password" name="" value="">
+</div>
+
+
+<input class="btn" type="button" name="" value="Login in">
+<a href="#" style="color: green;">Not Registered?</a><br><br>
+<a href="#" style="color: green;" >Forgot Password?</a>
+
+</div>
+</form>
+</body>
+</html> 
+
+
